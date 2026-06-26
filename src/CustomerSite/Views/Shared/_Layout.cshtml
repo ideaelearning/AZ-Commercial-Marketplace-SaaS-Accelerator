@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
+    <title>Aidea · Azure Marketplace</title>
     <link rel="stylesheet" href="~/css/customer-site.css" />
     <script src="~/lib/jquery/dist/jquery.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -18,7 +18,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark cm-top-nav-bar">
         <a class="navbar-brand mr-auto mr-lg-0" href="@Url.Action("Index", "Home")">
-            <img class="cm-logo" style="padding-left:15px;" src="~/contoso-sales.png" />
+            <img class="cm-logo" style="padding-left:15px; height:38px; width:auto;" src="~/aidea-logo.svg" alt="Aidea" />
             @*<img class="cm-logo pull-left" src="https://kblnuser.azurewebsites.net/logo.png" />*@
         </a>
         @*<a class="navbar-brand mr-auto mr-lg-0" asp-area="" asp-controller="Home" asp-action="Index">SaasKit Demo</a>*@
@@ -64,7 +64,8 @@
 
     <footer class="cm-footer">
         <div class="container text-center">
-            &copy; 2020 - SaasKit - Demo - Version: @ViewData["AppVersion"]
+            &copy; @DateTime.Now.Year Aidea · An AI-powered platform that turns information into impact ·
+            <a href="https://www.aideapro.ai" target="_blank" rel="noopener" style="color:#ffcc66;text-decoration:none;">aideapro.ai</a>
         </div>
     </footer>
 

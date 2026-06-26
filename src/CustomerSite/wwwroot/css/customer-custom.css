@@ -12,7 +12,7 @@
 }
 
 .cm-top-nav-bar {
-    background-color: #004578 !important;
+    background-color: #6633cc !important;
     margin-bottom: 0px;
     border: 0px;
     height:48px;
@@ -81,7 +81,7 @@
     font-family: 'Segoe UI', 'sans-serif' !important;
     font-size: 25px;
     background-color: #fff;
-    border-bottom: 4px solid #2180a6;
+    border-bottom: 4px solid #6c49d9;
     text-transform: uppercase;
     margin-bottom: 20px;
     line-height: 40px;
@@ -126,7 +126,7 @@
 
 .cm-button-default {
     color: #fff !important;
-    background-color: #004578;
+    background-color: #6633cc;
     border-color: #2e6da4;
     display: inline-block;
     font-weight: 400;
@@ -152,17 +152,17 @@
 }
 
     .cm-button-default:hover {
-        background-color: #2180a6;
+        background-color: #6c49d9;
         border-radius: 5px;
         padding: 12px 20px;
         font-size: 18px;
         font-weight: bold;
-        color: #004578;
+        color: #6633cc;
     }
 
 .cm-button-error {
     color: #fff;
-    background-color: #004578 !important;
+    background-color: #6633cc !important;
     border-color: #2e6da4;
     display: inline-block;
     font-weight: 400;
@@ -193,7 +193,7 @@
         padding: 12px 20px;
         font-size: 18px;
         font-weight: bold;
-        color: #004578;
+        color: #6633cc;
     }
 
 .cm-button-success {
@@ -229,7 +229,7 @@
         padding: 12px 20px;
         font-size: 18px;
         font-weight: bold;
-        color: #004578;
+        color: #6633cc;
     }
 
 .cm-button-danger {
@@ -265,7 +265,7 @@
         padding: 12px 20px;
         font-size: 18px;
         font-weight: bold;
-        color: #004578;
+        color: #6633cc;
     }
 
 .cm-table {
@@ -309,7 +309,7 @@
 
     .cm-link-button:hover {
         cursor: pointer;
-        color: #004578 !important;
+        color: #6633cc !important;
     }
 
 /*.cm-footer {
@@ -341,7 +341,7 @@ a.cm-dropdown-option {
 
     a.cm-dropdown-option:hover {
         background: transparent !important;
-        color: #004578 !important;
+        color: #6633cc !important;
         cursor: pointer;
     }
 
@@ -360,3 +360,82 @@ a.cm-dropdown-option {
 .red-star {
     color: red;
 }
+
+/* ---- Aidea welcome screen ---- */
+.cm-welcome-card {
+    max-width: 760px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 14px;
+    box-shadow: 0 10px 40px rgba(102, 51, 204, 0.12);
+    border-top: 5px solid #6633cc;
+}
+
+.cm-welcome-logo {
+    height: 56px;
+    width: auto;
+    margin-bottom: 18px;
+}
+
+.cm-welcome-title {
+    color: #6633cc !important;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+.cm-welcome-sub {
+    color: #6c49d9;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.cm-welcome-body p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #374151;
+}
+
+.cm-welcome-divider {
+    border-top: 2px solid #ffcc66;
+    opacity: 1;
+    width: 60px;
+    margin: 22px auto;
+}
+
+.cm-welcome-steps {
+    line-height: 2;
+}
+
+.cm-welcome-steps li::marker {
+    color: #6633cc;
+}
+
+.cm-welcome-cta {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cm-button-azure {
+    box-shadow: 0 6px 18px rgba(102, 51, 204, 0.28);
+}
+
+.cm-button-ghost {
+    display: inline-block;
+    color: #6633cc !important;
+    background: #fff;
+    border: 2px solid #6633cc;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+    .cm-button-ghost:hover {
+        background: #f3eefc;
+        color: #6633cc !important;
+    }

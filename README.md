@@ -171,3 +171,9 @@ There is a list of the Frequent Asked Questions [here](./docs/FAQs.md).
 ## License
 
 This project is released under the [MIT License](LICENSE).
+
+
+
+AZURE_CLIENT_ID = 4ea5e989-383f-487e-9c4c-cd821ff5bf8f
+AZURE_TENANT_ID = 46ddab58-a339-461b-a275-ecd23fb52eba
+AZURE_SUBSCRIPTION_ID = 5e30fb06-9e4f-42a7-b25d-8584d4e48b68
