@@ -42,7 +42,11 @@ public class Program
             })
             .ConfigureWebHostDefaults(webBuilder =>
             {
-                webBuilder.UseUrls("https://*:5001", "http://*:5000");
+                // No UseUrls(): let the host set the listen URL via ASPNETCORE_URLS
+                // so Azure App Service (Linux) can bind its injected port. AdminSite
+                // already does this. For local dev, pass ASPNETCORE_URLS yourself, e.g.
+                // ASPNETCORE_URLS="https://localhost:7101;http://localhost:7100" dotnet run
+                //webBuilder.UseUrls("https://*:7101", "http://*:7100");
                 webBuilder.UseStartup<Startup>();
             });
 }
